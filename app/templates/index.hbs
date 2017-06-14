@@ -1,1 +1,11 @@
-{{outlet}}
+<h1>Home</h1>
+We hope you find exactly what you're looking for in a place to stay.
+
+<ul>
+  {{#each model as |product|}}
+     <li>{{product.id}}'s {{product.name}} in {{product.brandedName}}</li>
+  {{/each}}
+</ul>
+
+{{#link-to 'about'}}About{{/link-to}}
+{{#link-to 'contacts'}}Click here to contact us.{{/link-to}}
