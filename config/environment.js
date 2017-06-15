@@ -7,7 +7,7 @@ module.exports = function(environment) {
     rootURL: '/',
     locationType: 'auto',
     firebase: {
-        apiKey: "AIzaSyAUxnwfAmlJYVc0MNAMnSQFpw5rCwUw13g",
+        // apiKey: "AIzaSyAUxnwfAmlJYVc0MNAMnSQFpw5rCwUw13g",
         authDomain: "bizna-2888f.firebaseapp.com",
         databaseURL: "https://bizna-2888f.firebaseio.com",
         projectId: "bizna-2888f",
