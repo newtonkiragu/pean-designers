@@ -14,38 +14,27 @@
   <div id="pagewrap">
 
     <header id="main">
-      <h1>Desiingerz</h1>
+      <h1>Desiignerz Club</h1>
     </header>
 
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+      	<li class="navbar-header">Desiignerz Club</li>
+        <li ><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contacts</a></li>
       </ul>
     </nav>
-
-    <section class="left-section">
-      <article>
-      <h3>This is a title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius venenatis mauris a tincidunt. Proin non mi in libero gravida lobortis a quis ante. Mauris interdum quis massa nec convallis. Cras rhoncus nibh id ante congue luctus. Maecenas condimentum risus eget augue lacinia, sit amet tempor felis tincidunt. Aenean dapibus magna feugiat risus commodo lobortis. Suspendisse vel scelerisque justo, in feugiat dolor. Vestibulum euismod sapien metus, quis ullamcorper erat vestibulum non. Nullam fermentum dui nec maximus mollis.</p>
-
-        <p>Proin egestas non sapien ac consequat. Mauris ornare sodales nulla a luctus. Pellentesque pretium odio a eleifend tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus metus est, suscipit feugiat tortor nec, placerat vestibulum mi. Praesent at nulla interdum, vehicula lectus quis, tempor ligula. Nullam libero lacus, lobortis quis porta ac, faucibus gravida tellus. Integer id nisl eget turpis sodales ultricies at ultricies est. Morbi finibus eros eu nisl accumsan, nec pellentesque mi eleifend. Vivamus feugiat nisl a erat tincidunt aliquam. Mauris consequat non erat quis congue. Vestibulum in quam in justo volutpat rutrum nec sit amet dolor. Ut aliquet eu tellus eget tempor. Morbi feugiat nibh eget sem fringilla fringilla. Phasellus elementum nec metus et maximus. Sed id velit gravida, tempor ligula nec, aliquet massa</p>
-      </article>
-    </section>
-
-    <section class="right-section">
-      <article>
-      <h3>This is a title</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius venenatis mauris a tincidunt. Proin non mi in libero gravida lobortis a quis ante. Mauris interdum quis massa nec convallis. Cras rhoncus nibh id ante congue luctus. Maecenas condimentum risus eget augue lacinia, sit amet tempor felis tincidunt. Aenean dapibus magna feugiat risus commodo lobortis. Suspendisse vel scelerisque justo, in feugiat dolor. Vestibulum euismod sapien metus, quis ullamcorper erat vestibulum non. Nullam fermentum dui nec maximus mollis.</p>
-
-        <p>Proin egestas non sapien ac consequat. Mauris ornare sodales nulla a luctus. Pellentesque pretium odio a eleifend tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus metus est, suscipit feugiat tortor nec, placerat vestibulum mi. Praesent at nulla interdum, vehicula lectus quis, tempor ligula. Nullam libero lacus, lobortis quis porta ac, faucibus gravida tellus. Integer id nisl eget turpis sodales ultricies at ultricies est. Morbi finibus eros eu nisl accumsan, nec pellentesque mi eleifend. Vivamus feugiat nisl a erat tincidunt aliquam. Mauris consequat non erat quis congue. Vestibulum in quam in justo volutpat rutrum nec sit amet dolor. Ut aliquet eu tellus eget tempor. Morbi feugiat nibh eget sem fringilla fringilla. Phasellus elementum nec metus et maximus. Sed id velit gravida, tempor ligula nec, aliquet massa</p>
-      </article>
-    </section>
+   {{!--  render templates --}}
+    <div class="container-fluid" style="text-align: center">
+    	
+		{{outlet}}
+    </div>
+	
     
   <footer>
-      <p>&copy philip
+      <p>&copy philip</p>
     </footer>
 
   </div>
@@ -81,5 +70,3 @@
 
 
 
-//render templates
-{{outlet}}
