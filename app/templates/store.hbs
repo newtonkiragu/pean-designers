@@ -1,3 +1,7 @@
-{{#each model as |product|}}
+<section class="products">
+  {{#each model as |product|}}
   {{product-tile product=product}}
-{{/each}}
+  {{/each}}
+</section>
+
+{{display-cart model=model}}
